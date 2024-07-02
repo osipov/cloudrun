@@ -11,6 +11,6 @@ cli:
 		-it \
 		--rm \
 		--privileged \
-		-v /var/run/docker.sock:/var/run/docker.sock-it \
+		-v /var/run/docker.sock:/var/run/docker.sock \
 		-v $$(pwd):/work \
 		cloudrun:latest /bin/bash
