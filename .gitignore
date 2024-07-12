@@ -1,0 +1,6 @@
+.config/
+.terraform.lock.hcl
+.terraform/
+artifact_registry/
+terraform.tfstate
+terraform.tfstate.backup
